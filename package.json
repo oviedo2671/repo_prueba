@@ -1,0 +1,31 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oviedo2671/repo_prueba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oviedo2671/repo_prueba/issues"
+  },
+  "homepage": "https://github.com/oviedo2671/repo_prueba#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "sass": "^1.45.0"
+  },
+  "build-css": { 
+    "node-sass --include-path scss scss/estilos.scss css/estiloscss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"" 
+  }
+
+}

@@ -5,87 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto personalizado de Lelu Impresiones">
+    <meta name="keyword"
+        content="Lelu impresiones, emprendimiento, impresiones, cuadernos, tienda, stickers, posters, contacto">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
-    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
+    <title>Contacto</title>
 </head>
 
-<body class="formulario contenedor">
-
+<body class="contenedor">
+    <h1 id="lelu">Lelu impresiones</h1>
     <form action="">
         <fieldset>
-            <legend class="title"> Dejanos tu contacto </legend>
+            <h1>
+                <legend class="title">Contactanos</legend>
+            </h1>
+
             <label for="">Nombre</label>
-            <input type="text" name="name" placeholder="Ingresa tu nombre :)" required>
-            <br>
-            <!-- br como provisorio  -->
+            <div> <input type="text" name="name" placeholder="Ingresa tu nombre :)" required>
+            </div>
             <label for="">Apellido</label>
-            <input type="text" name="name" placeholder="Ingresa tu apellido" required>
-            <br>
+            <div>
+                <input type="text" name="name" placeholder="Ingresa tu apellido" required>
+            </div>
             <label for="">Teléfono celular</label>
-            <input type="text" name="name" placeholder="ej.: +541111111111" required>
-            <br>
+            <div>
+                <input type="text" name="name" placeholder="ej.: +541111111111" required>
+            </div>
             <label for="">Mail</label>
-            <input type="email" name="name" placeholder="Ingresa tu email" required>
-            <br>
-            <br>
+            <div>
+                <input type="email" name="name" placeholder="Ingresa tu email" required>
+            </div>
+
             <label for="Producto">Producto</label>
-            <br>
-            <select name="Producto" id="">
-                <option value="">Seleccioná tu producto</option>
-                <option value="Stickers">Stickers</option>
-                <option value="Cuadernos">Cuadernos</option>
-                <option value="Posters">Posters</option>
-                <option value="Otro">Otro (aclarar en el cuadro de consulta)</option>
-            </select>
-            <br>
-            <br>
+            <div>
+                <select name="Producto" id="">
+                    <option value="">Seleccioná tu producto</option>
+                    <option value="Stickers">Stickers</option>
+                    <option value="Cuadernos">Cuadernos</option>
+                    <option value="Posters">Posters</option>
+                    <option value="Otro">Otro (aclarar en el cuadro de consulta)</option>
+                </select>
+            </div>
             Para qué edad es?
-            <br>
-            <select name="edad" id="">
-                <option value="">Seleccioná edad</option>
-                <option value="Niños">Niños</option>
-                <option value="Jóvenes">Jóvenes</option>
-                <option value="Adultos/Adultos mayores">Adultos/Adultos mayores</option>
-                <option value="ATP">ATP, público en general</option>
-            </select>
-            <br>
-            <br>
+            <div>
+                <select name="edad" id="">
+                    <option value="">Seleccioná edad</option>
+                    <option value="Niños">Niños</option>
+                    <option value="Jóvenes">Jóvenes</option>
+                    <option value="Adultos/Adultos mayores">Adultos/Adultos mayores</option>
+                    <option value="ATP">ATP, público en general</option>
+                </select>
+            </div>
             Ocasión?
-            <br>
-            <select name="ocasión" id="">
-                <option value="">Seleccioná el evento</option>
-                <option value="escolar">Etapa escolar</option>
-                <option value="cumpleaños">Cumpleaños temático</option>
-                <option value="casamiento">Casamiento</option>
-                <option value="otro">Otro (aclarar en el cuadro de consulta)</option>
-            </select>
-            <br>
-            <br>
+            <div>
+                <select name="ocasión" id="">
+                    <option value="">Seleccioná el evento</option>
+                    <option value="escolar">Etapa escolar</option>
+                    <option value="cumpleaños">Cumpleaños temático</option>
+                    <option value="casamiento">Casamiento</option>
+                    <option value="otro">Otro (aclarar en el cuadro de consulta)</option>
+                </select>
+            </div>
             <label for="pais">Desde dónde nos contactas?</label>
-            <div></div>
-            <input type="radio" name="pais" value="Argentina" checked="checked"> Argentina
-            <div></div>
-            <input type="radio" name="pais" value="Uruguay"> Uruguay
-            <div></div>
+            <div>
+                <input type="radio" name="pais" value="Argentina" checked="checked"> Argentina
+            </div>
+            <div>
+                <input type="radio" name="pais" value="Uruguay"> Uruguay
+            </div>
             <input type="radio" name="pais" value="Otro"> Otro
-
-            <br>
-
-            <label for="consulta">Escribí tu consulta</label>
-            <br>
+            <div>
+                <label for="consulta">Escribí tu consulta</label>
+            </div>
             <textarea name="consulta" id="" cols="30" rows="5" maxlength="500" class="textarea"></textarea>
-
-            <div>En qué horario nos podemos comunicar con vos?</div>
-            <input type="checkbox" name="cbox1"> Mañana, a partir de 8hs
-            <br>
-            <input type="checkbox" name="cbox2"> Tarde, a partir de 13 hs
-            <br>
-            <input type="checkbox" name="cbox3"> Noche, hasta las 21 hs
-            <br>
-            <br>
+            <div>
+                <input type="checkbox" name="cbox1"> Acepto términos y condiciones de privacidad
+            </div>
             <input type="submit" value="Enviá tu consulta!" class="botonConsulta">
             <input type="reset" value="Modo Monica Geller" class="botonLimpiar">
             <br>
@@ -95,31 +93,26 @@
 
             </select>
         </fieldset>
-        
-    <Footer id="pie" class="pie">
-        <nav>
-            <!-- <p> Lista de Viñeta</p> -->
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="tienda.html">Tienda</a> </li>
-                <li> <a href="sobrenosotros.html">Sobre Nosotros</a> </li>
-                <li> <a href="contacto.html"> Contacto </a></li>
-            </ul>
-            <button><a href="https://www.instagram.com/leluimpresiones/">Seguinos en Instagram! </a> </button>
-        </nav>
-        <br>
-        <label for="">Suscribite a nuestro newsletter para estar al tanto de nuestras novedades y ofertas!</label>
-        <br>
-        <input type="email" name="name" placeholder="Ingresá tu email" required>
-        <input type="submit" value="Quiero mantenerme al tanto ;)" class="botonNL">
 
-        <br>
-        <br>
-        <a href="#arriba">Ir arriba</a>
+        <Footer id="pie" class="pie">
+            <nav>
+                <!-- <p> Lista de Viñeta</p> -->
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="tienda.html">Tienda</a> </li>
+                    <li> <a href="sobrenosotros.html">Sobre Nosotros</a> </li>
+                    <li> <a href="contacto.html"> Contacto </a></li>
+                </ul>
+                <button><a href="https://www.instagram.com/leluimpresiones/">Seguinos en Instagram! </a> </button>
+            </nav>
+            <br>
+            <label for="">Suscribite a nuestro newsletter para estar al tanto de nuestras novedades y ofertas!</label>
+            <br>
+            <input type="email" name="name" placeholder="Ingresá tu email" required>
+            <input type="submit" value="Quiero mantenerme al tanto ;)" class="botonNL">
 
-    </Footer>
+        </Footer>
     </form>
-    
 </body>
 
 </html>
